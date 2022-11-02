@@ -1,0 +1,4 @@
+#Mon Oct 31 10:53:44 EET 2022
+base.0=/home/tessera/Desktop/unit2/TwoActivities_6.1/app/build/intermediates/dex/debugAndroidTest/mergeDexDebugAndroidTest/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

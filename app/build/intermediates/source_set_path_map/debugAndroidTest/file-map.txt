@@ -1,0 +1,7 @@
+com.example.android.twoactivities.test.app-androidTest-0 /home/tessera/Desktop/unit2/TwoActivities_6.1/app/build/generated/res/resValues/androidTest/debug
+com.example.android.twoactivities.test.app-androidTest-1 /home/tessera/Desktop/unit2/TwoActivities_6.1/app/build/generated/res/rs/androidTest/debug
+com.example.android.twoactivities.test.app-mergeDebugAndroidTestResources-2 /home/tessera/Desktop/unit2/TwoActivities_6.1/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.example.android.twoactivities.test.app-mergeDebugAndroidTestResources-3 /home/tessera/Desktop/unit2/TwoActivities_6.1/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.example.android.twoactivities.test.app-merged_res-4 /home/tessera/Desktop/unit2/TwoActivities_6.1/app/build/intermediates/merged_res/debugAndroidTest
+com.example.android.twoactivities.test.app-androidTest-5 /home/tessera/Desktop/unit2/TwoActivities_6.1/app/src/androidTest/res
+com.example.android.twoactivities.test.app-androidTestDebug-6 /home/tessera/Desktop/unit2/TwoActivities_6.1/app/src/androidTestDebug/res

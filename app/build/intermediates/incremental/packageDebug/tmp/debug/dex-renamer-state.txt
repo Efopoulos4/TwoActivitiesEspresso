@@ -1,4 +1,4 @@
-#Tue Oct 25 15:47:12 EEST 2022
+#Mon Oct 31 10:51:00 EET 2022
 base.0=/home/tessera/Desktop/unit2/TwoActivities_6.1/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

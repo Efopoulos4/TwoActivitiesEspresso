@@ -25,78 +25,128 @@
 24        android:targetSdkVersion="33" />
 24-->/home/tessera/Desktop/unit2/TwoActivities_6.1/app/src/main/AndroidManifest.xml
 25
-26    <application
-26-->/home/tessera/Desktop/unit2/TwoActivities_6.1/app/src/main/AndroidManifest.xml:21:5-43:19
-27        android:allowBackup="true"
-27-->/home/tessera/Desktop/unit2/TwoActivities_6.1/app/src/main/AndroidManifest.xml:22:9-35
-28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-28-->[androidx.core:core:1.8.0] /home/tessera/.gradle/caches/transforms-3/0638d9dacb5fd10604e28ec2b4d3c80b/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
-29        android:debuggable="true"
-30        android:icon="@mipmap/ic_launcher"
-30-->/home/tessera/Desktop/unit2/TwoActivities_6.1/app/src/main/AndroidManifest.xml:23:9-43
-31        android:label="@string/app_name"
-31-->/home/tessera/Desktop/unit2/TwoActivities_6.1/app/src/main/AndroidManifest.xml:24:9-41
-32        android:roundIcon="@mipmap/ic_launcher_round"
-32-->/home/tessera/Desktop/unit2/TwoActivities_6.1/app/src/main/AndroidManifest.xml:25:9-54
-33        android:supportsRtl="true"
-33-->/home/tessera/Desktop/unit2/TwoActivities_6.1/app/src/main/AndroidManifest.xml:26:9-35
-34        android:testOnly="true"
-35        android:theme="@style/AppTheme" >
-35-->/home/tessera/Desktop/unit2/TwoActivities_6.1/app/src/main/AndroidManifest.xml:27:9-40
-36        <activity
-36-->/home/tessera/Desktop/unit2/TwoActivities_6.1/app/src/main/AndroidManifest.xml:28:9-35:20
-37            android:name="com.example.android.twoactivities.MainActivity"
-37-->/home/tessera/Desktop/unit2/TwoActivities_6.1/app/src/main/AndroidManifest.xml:28:19-47
-38            android:exported="true" >
-38-->/home/tessera/Desktop/unit2/TwoActivities_6.1/app/src/main/AndroidManifest.xml:29:13-36
-39            <intent-filter>
-39-->/home/tessera/Desktop/unit2/TwoActivities_6.1/app/src/main/AndroidManifest.xml:30:13-34:29
-40                <action android:name="android.intent.action.MAIN" />
-40-->/home/tessera/Desktop/unit2/TwoActivities_6.1/app/src/main/AndroidManifest.xml:31:17-69
-40-->/home/tessera/Desktop/unit2/TwoActivities_6.1/app/src/main/AndroidManifest.xml:31:25-66
-41
-42                <category android:name="android.intent.category.LAUNCHER" />
-42-->/home/tessera/Desktop/unit2/TwoActivities_6.1/app/src/main/AndroidManifest.xml:33:17-77
-42-->/home/tessera/Desktop/unit2/TwoActivities_6.1/app/src/main/AndroidManifest.xml:33:27-74
-43            </intent-filter>
-44        </activity>
-45        <activity
-45-->/home/tessera/Desktop/unit2/TwoActivities_6.1/app/src/main/AndroidManifest.xml:36:9-42:20
-46            android:name="com.example.android.twoactivities.SecondActivity"
-46-->/home/tessera/Desktop/unit2/TwoActivities_6.1/app/src/main/AndroidManifest.xml:36:19-49
-47            android:label="Second Activity"
-47-->/home/tessera/Desktop/unit2/TwoActivities_6.1/app/src/main/AndroidManifest.xml:37:13-46
-48            android:parentActivityName="com.example.android.twoactivities.MainActivity" >
-48-->/home/tessera/Desktop/unit2/TwoActivities_6.1/app/src/main/AndroidManifest.xml:38:13-55
-49            <meta-data
-49-->/home/tessera/Desktop/unit2/TwoActivities_6.1/app/src/main/AndroidManifest.xml:39:13-41:49
-50                android:name="android.support.PARENT_ACTIVITY"
-50-->/home/tessera/Desktop/unit2/TwoActivities_6.1/app/src/main/AndroidManifest.xml:40:17-63
-51                android:value=".MainActivity" />
-51-->/home/tessera/Desktop/unit2/TwoActivities_6.1/app/src/main/AndroidManifest.xml:41:17-46
-52        </activity>
-53
-54        <provider
-54-->[androidx.emoji2:emoji2:1.2.0] /home/tessera/.gradle/caches/transforms-3/69e8195e0af1903606758bebf50c459d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
-55            android:name="androidx.startup.InitializationProvider"
-55-->[androidx.emoji2:emoji2:1.2.0] /home/tessera/.gradle/caches/transforms-3/69e8195e0af1903606758bebf50c459d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
-56            android:authorities="com.example.android.twoactivities.androidx-startup"
-56-->[androidx.emoji2:emoji2:1.2.0] /home/tessera/.gradle/caches/transforms-3/69e8195e0af1903606758bebf50c459d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
-57            android:exported="false" >
-57-->[androidx.emoji2:emoji2:1.2.0] /home/tessera/.gradle/caches/transforms-3/69e8195e0af1903606758bebf50c459d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
-58            <meta-data
-58-->[androidx.emoji2:emoji2:1.2.0] /home/tessera/.gradle/caches/transforms-3/69e8195e0af1903606758bebf50c459d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
-59                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-59-->[androidx.emoji2:emoji2:1.2.0] /home/tessera/.gradle/caches/transforms-3/69e8195e0af1903606758bebf50c459d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
-60                android:value="androidx.startup" />
-60-->[androidx.emoji2:emoji2:1.2.0] /home/tessera/.gradle/caches/transforms-3/69e8195e0af1903606758bebf50c459d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
-61            <meta-data
-61-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/tessera/.gradle/caches/transforms-3/a2a5ae00951a98f5c9bbf6406733a104/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
-62                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-62-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/tessera/.gradle/caches/transforms-3/a2a5ae00951a98f5c9bbf6406733a104/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
-63                android:value="androidx.startup" />
-63-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/tessera/.gradle/caches/transforms-3/a2a5ae00951a98f5c9bbf6406733a104/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
-64        </provider>
-65    </application>
-66
-67</manifest>
+26    <uses-permission android:name="android.permission.REORDER_TASKS" />
+26-->[androidx.test:core:1.4.0] /home/tessera/.gradle/caches/transforms-3/50c068eed43b74429aede7f5337506d3/transformed/jetified-core-1.4.0/AndroidManifest.xml:24:5-72
+26-->[androidx.test:core:1.4.0] /home/tessera/.gradle/caches/transforms-3/50c068eed43b74429aede7f5337506d3/transformed/jetified-core-1.4.0/AndroidManifest.xml:24:22-69
+27
+28    <application
+28-->/home/tessera/Desktop/unit2/TwoActivities_6.1/app/src/main/AndroidManifest.xml:21:5-43:19
+29        android:allowBackup="true"
+29-->/home/tessera/Desktop/unit2/TwoActivities_6.1/app/src/main/AndroidManifest.xml:22:9-35
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.8.0] /home/tessera/.gradle/caches/transforms-3/0638d9dacb5fd10604e28ec2b4d3c80b/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+31        android:debuggable="true"
+32        android:icon="@mipmap/ic_launcher"
+32-->/home/tessera/Desktop/unit2/TwoActivities_6.1/app/src/main/AndroidManifest.xml:23:9-43
+33        android:label="@string/app_name"
+33-->/home/tessera/Desktop/unit2/TwoActivities_6.1/app/src/main/AndroidManifest.xml:24:9-41
+34        android:roundIcon="@mipmap/ic_launcher_round"
+34-->/home/tessera/Desktop/unit2/TwoActivities_6.1/app/src/main/AndroidManifest.xml:25:9-54
+35        android:supportsRtl="true"
+35-->/home/tessera/Desktop/unit2/TwoActivities_6.1/app/src/main/AndroidManifest.xml:26:9-35
+36        android:testOnly="true"
+37        android:theme="@style/AppTheme" >
+37-->/home/tessera/Desktop/unit2/TwoActivities_6.1/app/src/main/AndroidManifest.xml:27:9-40
+38        <activity
+38-->/home/tessera/Desktop/unit2/TwoActivities_6.1/app/src/main/AndroidManifest.xml:28:9-35:20
+39            android:name="com.example.android.twoactivities.MainActivity"
+39-->/home/tessera/Desktop/unit2/TwoActivities_6.1/app/src/main/AndroidManifest.xml:28:19-47
+40            android:exported="true" >
+40-->/home/tessera/Desktop/unit2/TwoActivities_6.1/app/src/main/AndroidManifest.xml:29:13-36
+41            <intent-filter>
+41-->/home/tessera/Desktop/unit2/TwoActivities_6.1/app/src/main/AndroidManifest.xml:30:13-34:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->/home/tessera/Desktop/unit2/TwoActivities_6.1/app/src/main/AndroidManifest.xml:31:17-69
+42-->/home/tessera/Desktop/unit2/TwoActivities_6.1/app/src/main/AndroidManifest.xml:31:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->/home/tessera/Desktop/unit2/TwoActivities_6.1/app/src/main/AndroidManifest.xml:33:17-77
+44-->/home/tessera/Desktop/unit2/TwoActivities_6.1/app/src/main/AndroidManifest.xml:33:27-74
+45            </intent-filter>
+46        </activity>
+47        <activity
+47-->/home/tessera/Desktop/unit2/TwoActivities_6.1/app/src/main/AndroidManifest.xml:36:9-42:20
+48            android:name="com.example.android.twoactivities.SecondActivity"
+48-->/home/tessera/Desktop/unit2/TwoActivities_6.1/app/src/main/AndroidManifest.xml:36:19-49
+49            android:label="Second Activity"
+49-->/home/tessera/Desktop/unit2/TwoActivities_6.1/app/src/main/AndroidManifest.xml:37:13-46
+50            android:parentActivityName="com.example.android.twoactivities.MainActivity" >
+50-->/home/tessera/Desktop/unit2/TwoActivities_6.1/app/src/main/AndroidManifest.xml:38:13-55
+51            <meta-data
+51-->/home/tessera/Desktop/unit2/TwoActivities_6.1/app/src/main/AndroidManifest.xml:39:13-41:49
+52                android:name="android.support.PARENT_ACTIVITY"
+52-->/home/tessera/Desktop/unit2/TwoActivities_6.1/app/src/main/AndroidManifest.xml:40:17-63
+53                android:value=".MainActivity" />
+53-->/home/tessera/Desktop/unit2/TwoActivities_6.1/app/src/main/AndroidManifest.xml:41:17-46
+54        </activity>
+55
+56        <provider
+56-->[androidx.emoji2:emoji2:1.2.0] /home/tessera/.gradle/caches/transforms-3/69e8195e0af1903606758bebf50c459d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+57            android:name="androidx.startup.InitializationProvider"
+57-->[androidx.emoji2:emoji2:1.2.0] /home/tessera/.gradle/caches/transforms-3/69e8195e0af1903606758bebf50c459d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+58            android:authorities="com.example.android.twoactivities.androidx-startup"
+58-->[androidx.emoji2:emoji2:1.2.0] /home/tessera/.gradle/caches/transforms-3/69e8195e0af1903606758bebf50c459d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+59            android:exported="false" >
+59-->[androidx.emoji2:emoji2:1.2.0] /home/tessera/.gradle/caches/transforms-3/69e8195e0af1903606758bebf50c459d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+60            <meta-data
+60-->[androidx.emoji2:emoji2:1.2.0] /home/tessera/.gradle/caches/transforms-3/69e8195e0af1903606758bebf50c459d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+61                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+61-->[androidx.emoji2:emoji2:1.2.0] /home/tessera/.gradle/caches/transforms-3/69e8195e0af1903606758bebf50c459d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+62                android:value="androidx.startup" />
+62-->[androidx.emoji2:emoji2:1.2.0] /home/tessera/.gradle/caches/transforms-3/69e8195e0af1903606758bebf50c459d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+63            <meta-data
+63-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/tessera/.gradle/caches/transforms-3/a2a5ae00951a98f5c9bbf6406733a104/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+64                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+64-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/tessera/.gradle/caches/transforms-3/a2a5ae00951a98f5c9bbf6406733a104/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+65                android:value="androidx.startup" />
+65-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/tessera/.gradle/caches/transforms-3/a2a5ae00951a98f5c9bbf6406733a104/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+66        </provider>
+67
+68        <activity
+68-->[androidx.test:core:1.4.0] /home/tessera/.gradle/caches/transforms-3/50c068eed43b74429aede7f5337506d3/transformed/jetified-core-1.4.0/AndroidManifest.xml:27:9-34:20
+69            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+69-->[androidx.test:core:1.4.0] /home/tessera/.gradle/caches/transforms-3/50c068eed43b74429aede7f5337506d3/transformed/jetified-core-1.4.0/AndroidManifest.xml:28:13-99
+70            android:exported="true"
+70-->[androidx.test:core:1.4.0] /home/tessera/.gradle/caches/transforms-3/50c068eed43b74429aede7f5337506d3/transformed/jetified-core-1.4.0/AndroidManifest.xml:29:13-36
+71            android:theme="@android:style/Theme" >
+71-->[androidx.test:core:1.4.0] /home/tessera/.gradle/caches/transforms-3/50c068eed43b74429aede7f5337506d3/transformed/jetified-core-1.4.0/AndroidManifest.xml:30:13-49
+72            <intent-filter>
+72-->[androidx.test:core:1.4.0] /home/tessera/.gradle/caches/transforms-3/50c068eed43b74429aede7f5337506d3/transformed/jetified-core-1.4.0/AndroidManifest.xml:31:13-33:29
+73                <action android:name="android.intent.action.MAIN" />
+73-->/home/tessera/Desktop/unit2/TwoActivities_6.1/app/src/main/AndroidManifest.xml:31:17-69
+73-->/home/tessera/Desktop/unit2/TwoActivities_6.1/app/src/main/AndroidManifest.xml:31:25-66
+74            </intent-filter>
+75        </activity>
+76        <activity
+76-->[androidx.test:core:1.4.0] /home/tessera/.gradle/caches/transforms-3/50c068eed43b74429aede7f5337506d3/transformed/jetified-core-1.4.0/AndroidManifest.xml:35:9-42:20
+77            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+77-->[androidx.test:core:1.4.0] /home/tessera/.gradle/caches/transforms-3/50c068eed43b74429aede7f5337506d3/transformed/jetified-core-1.4.0/AndroidManifest.xml:36:13-95
+78            android:exported="true"
+78-->[androidx.test:core:1.4.0] /home/tessera/.gradle/caches/transforms-3/50c068eed43b74429aede7f5337506d3/transformed/jetified-core-1.4.0/AndroidManifest.xml:37:13-36
+79            android:theme="@android:style/Theme" >
+79-->[androidx.test:core:1.4.0] /home/tessera/.gradle/caches/transforms-3/50c068eed43b74429aede7f5337506d3/transformed/jetified-core-1.4.0/AndroidManifest.xml:38:13-49
+80            <intent-filter>
+80-->[androidx.test:core:1.4.0] /home/tessera/.gradle/caches/transforms-3/50c068eed43b74429aede7f5337506d3/transformed/jetified-core-1.4.0/AndroidManifest.xml:31:13-33:29
+81                <action android:name="android.intent.action.MAIN" />
+81-->/home/tessera/Desktop/unit2/TwoActivities_6.1/app/src/main/AndroidManifest.xml:31:17-69
+81-->/home/tessera/Desktop/unit2/TwoActivities_6.1/app/src/main/AndroidManifest.xml:31:25-66
+82            </intent-filter>
+83        </activity>
+84        <activity
+84-->[androidx.test:core:1.4.0] /home/tessera/.gradle/caches/transforms-3/50c068eed43b74429aede7f5337506d3/transformed/jetified-core-1.4.0/AndroidManifest.xml:43:9-50:20
+85            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+85-->[androidx.test:core:1.4.0] /home/tessera/.gradle/caches/transforms-3/50c068eed43b74429aede7f5337506d3/transformed/jetified-core-1.4.0/AndroidManifest.xml:44:13-103
+86            android:exported="true"
+86-->[androidx.test:core:1.4.0] /home/tessera/.gradle/caches/transforms-3/50c068eed43b74429aede7f5337506d3/transformed/jetified-core-1.4.0/AndroidManifest.xml:45:13-36
+87            android:theme="@android:style/Theme.Dialog" >
+87-->[androidx.test:core:1.4.0] /home/tessera/.gradle/caches/transforms-3/50c068eed43b74429aede7f5337506d3/transformed/jetified-core-1.4.0/AndroidManifest.xml:46:13-56
+88            <intent-filter>
+88-->[androidx.test:core:1.4.0] /home/tessera/.gradle/caches/transforms-3/50c068eed43b74429aede7f5337506d3/transformed/jetified-core-1.4.0/AndroidManifest.xml:31:13-33:29
+89                <action android:name="android.intent.action.MAIN" />
+89-->/home/tessera/Desktop/unit2/TwoActivities_6.1/app/src/main/AndroidManifest.xml:31:17-69
+89-->/home/tessera/Desktop/unit2/TwoActivities_6.1/app/src/main/AndroidManifest.xml:31:25-66
+90            </intent-filter>
+91        </activity>
+92    </application>
+93
+94</manifest>
